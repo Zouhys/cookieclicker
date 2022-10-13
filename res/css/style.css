@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+   
+}
+#counter {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+body{
+  background: url(../img/patrikg.gif) no-repeat;
+  background-size: cover;
+}
+
+#cookie {
+  max-width: 240px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: .2s ease;
+  cursor: pointer;
+}
+
+#cookie:hover  {
+  transform: scale(1.2);
+  
+}
+
+button {
+  border: 1px solid black;
+  font-size: 15px;
+  display: table;
+  margin: 0 auto;
+  transition: .2s ease;
+
+  
+}
+
+button:hover {
+  transform: scale(1.1);
+}
